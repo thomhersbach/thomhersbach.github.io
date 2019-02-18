@@ -37,10 +37,10 @@ a {
   background-color: transparent;
   text-decoration: none;
   /*white-space: nowrap; */
-  white-space: pre-wrap; /* css-3 */    
+  white-space: pre-wrap; /* css-3 */
   white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
-  white-space: -pre-wrap; /* Opera 4-6 */    
-  white-space: -o-pre-wrap; /* Opera 7 */    
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
   word-wrap: break-word; /* Internet Explorer 5.5+ */
 }
 
@@ -52,7 +52,7 @@ h1 {
 
 h2 {
   font-size: 16px;
-  font-weight: 600; 
+  font-weight: 600;
 }
 
 #tag, .info__tag, .main__tag {
@@ -176,7 +176,7 @@ h2 {
   width: 100%;
   padding-top: 20px;
   min-height: 490px;
-  background-color: #1560FB; 
+  background-color: #1560FB;
   /*background-color: #42a5f5;*/
 }
 
@@ -187,13 +187,13 @@ h2 {
       left: 0;
       top: 0;
       height: 100%;
-      width: 40%; 
-    } 
+      width: 40%;
+    }
 }
 
 .container-main {
   display: inline-block;
-  padding: 20px; 
+  padding: 20px;
 }
 @media (min-width: 768px) {
   .container-main {
@@ -205,8 +205,8 @@ h2 {
     width: 55%;
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
-    overflow-x: hidden; 
-    } 
+    overflow-x: hidden;
+    }
   }
 
 .info-main {
@@ -295,7 +295,7 @@ h2 {
       background-color: white; }
     @media (min-width: 768px) {
       .info__button--dark {
-        margin: 40px auto auto auto; } 
+        margin: 40px auto auto auto; }
       }
 .socicon-google-scholar:before {
   content: "\e035";
@@ -308,7 +308,7 @@ h2 {
 .info-footer{
   padding-top: 10px;
   height: 60px;
-}      
+}
 .info-footer__kitchener {
   animation-delay: 1.2s;
   position: absolute;
@@ -498,11 +498,11 @@ h2 {
   @media (min-width: 1024px) {
     .main__experience {
       max-width: 628px;
-      margin-left: 110px; 
+      margin-left: 110px;
     }
     .main__experience:first-of-type {
-      margin-top: 3px; 
-    } 
+      margin-top: 3px;
+    }
   }
 
 .main__experience-year{
@@ -510,7 +510,7 @@ h2 {
   margin: 0px 0px 0px 0px;
   opacity: .6;
   font-weight: 700;
-  line-height: 26px; 
+  line-height: 26px;
   padding-right: 2px;
 }
  @media (min-width: 500px) {
@@ -519,19 +519,19 @@ h2 {
     margin: 0px 0px 0px 0px;
     opacity: .6;
     font-weight: 700;
-    line-height: 26px; 
+    line-height: 26px;
   }
 }
 
   .main__experience-info {
-    float: left; 
+    float: left;
     width: 96%;
     padding-right: 20px;
   }
     .main__experience-info-company {
       display: block;
       font-weight: 700;
-      line-height: 22px; 
+      line-height: 22px;
       font-size: 16px;
     }
     .main__experience-info-position {
@@ -564,15 +564,14 @@ h2 {
   height: 234px;
   overflow: hidden;
   color: #fff;
-  -webkit-mask-image: url('http://i40.tinypic.com/kajqg.jpg');
+  -webkit-mask-image: url('../images/hexagon.png');
   text-align: center;
-      
+
 }
 
 .hex .content{
  /* height: 186px;
   width: 186px;*/
   margin: auto;
-  
-}
 
+}
